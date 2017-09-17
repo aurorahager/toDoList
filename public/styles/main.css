@@ -1,0 +1,8 @@
+* {
+    font-family:'Delius Unicase',
+    cursive;
+}
+
+#daComps {
+    text-decoration: line-through;
+    background-color: rgba(211, 255, 211, 0.84);
