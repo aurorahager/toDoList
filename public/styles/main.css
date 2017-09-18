@@ -1,8 +1,35 @@
 * {
-    font-family:'Delius Unicase',
-    cursive;
+    font-family: 'Delius Unicase', cursive;
+}
+
+body {
+    background-color: rgb(239, 239, 255)
+}
+
+.jumbotron,
+#daList,
+#daComps {
+    border: double lightskyblue;
+}
+
+#addButton,
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 80%;
 }
 
 #daComps {
-    text-decoration: line-through;
     background-color: rgba(211, 255, 211, 0.84);
+}
+
+#daList {
+    background-color: rgba(255, 255, 255, 0.96)
+}
+
+.float {
+    float: left;
+    width: 50%;
+}

@@ -1,7 +1,7 @@
 //requires
 var express = require('express');
 //routes required
- var indexRoute = require('./routes/index.js');
+var indexRoute = require('./routes/index.js');
 var listRoute = require('./routes/list.js');
 //Globals
 var app = express();
@@ -13,6 +13,6 @@ app.use(express.static('public'));
 app.use('/', indexRoute);
 app.use('/list', listRoute);
 
-app.listen(port,function(){
-    console.log('server up on', port);   
-});//END listen
+app.listen(port, function () {
+    console.log('server up on', port);
+}); //END listen
